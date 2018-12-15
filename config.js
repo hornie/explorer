@@ -6,6 +6,6 @@ var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
     "HLEB": [
-        ["pool.hleb.cc", "https://pool.hleb.cc:8117"],	
+        ["pool.hleb.cc", "http://mine.hleb.cc:8117"],	
     ]
 };
