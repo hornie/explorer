@@ -139,12 +139,18 @@
 
 <br />
 
-<script src="/js/Chart.bundle.min.js"></script>
-<script src="/js/sorttable.js"></script>
-
+<script>
+var url = "/js/Chart.bundle.min.js";
+$.getScript(url);
+</script>
 
 <script>
-window.NETWORK_STAT_MAP = new Map(networkStat[symbol.toLowerCase()]);
+var url = "/js/sorttable.js";
+$.getScript(url);
+</script>
+
+<script>
+window.NETWORK_STAT_MAP = new Map(networkStat[symbol]);
 window.poolNames = [];
 window.poolHashrates = [];
 window.colors = [];
